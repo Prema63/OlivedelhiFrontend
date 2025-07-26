@@ -3,7 +3,6 @@ import Modal from "../../global/ui/modals/Modal";
 import { validate } from "../../global/utils/ValidateForms";
 import { toast } from "react-toastify";
 import { NormalInput, TextArea } from "../../global/ui/inputs/ModalInputs";
-import TiptapEditor from "../../global/ui/inputs/TipTapEditor";
 
 export default function MetaDataModal({
   saveFunc,

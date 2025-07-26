@@ -30,7 +30,7 @@ export const ModalInput = ({
         onChange={onChange}
         placeholder={placeholder}
         disabled={disabled}
-        className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
+        className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5db64c] focus:border-[#5db64c] text-sm"
         required={required}
       />
     </div>
@@ -60,7 +60,7 @@ export const TextArea = ({
         onChange={onChange}
         placeholder={placeholder}
         required={required}
-        className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm resize-none"
+        className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5db64c] focus:border-[#5db64c] text-sm resize-none"
         rows={4}
       />
     </div>
@@ -88,7 +88,7 @@ export const DateInput = ({
         value={value ? new Date(value).toISOString().split("T")[0] : ""}
         onChange={(e) => onChange(name, new Date(e.target.value))}
         required={required}
-        className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
+        className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5db64c] focus:border-[#5db64c] text-sm"
       />
     </div>
   );
@@ -146,7 +146,7 @@ export const NormalInput = ({
         placeholder={placeholder}
         disabled={disabled}
         required={required}
-        className="px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 text-sm"
+        className="px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#5db64c] focus:border-[#5db64c] text-sm"
       />
     </div>
   );
